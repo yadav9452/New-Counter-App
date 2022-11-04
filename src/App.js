@@ -5,8 +5,8 @@ import { useState } from "react";
 export default function App() {
   const [count, setCount] = useState(0);
 
-  const handleChange = (pre) => {
-    setCount(pre + count);
+  const handleChange = () => {
+    setCount(count + 1);
   };
 
   return (
